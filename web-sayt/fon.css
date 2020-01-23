@@ -1,0 +1,16 @@
+.cent{
+    text-align: center;
+    font-size: 30px;
+    color: lightsteelblue;
+      
+}
+.menu{
+    display: block;
+    padding: 10px;
+    text-decoration: none
+}
+.img.image{
+    width: auto;
+    
+    
+}
