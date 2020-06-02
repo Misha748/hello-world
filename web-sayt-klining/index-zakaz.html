@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Klining-master</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-header">
+       <div class="container">
+        <div class="header-top">
+            <div class="header-logo">
+                <a href="index.html"><img src="img/logo.jpg" alt="Klining-master"     height="110px" width="205px"></a>
+            </div>
+        </div>
+        <ul class="main-nav clearfix">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="index-catalog.html">Каталог</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+        <a class="btn btn-quick-order" href="index-zakaz.html">Заказать</a>
+        </div>    
+</div>
+       <div class="feedback">
+          <div class="container">
+           <p class="feedback-tip">Заполните форму и мы вам перезвоним</p>
+           <form class="feedback-form" action="/klining-mail" method="post">
+               <div class="feedback-form-group">
+                   <label for="fullname">Ф.И.О.:</label>
+                   <input type="text" name="fullname" id="fullnam" >
+               </div>
+               <div class="feedback-form-group">
+                   <label for="phone">Контактный телефон:</label>
+                   <input type="text" name="phone" id="phone">
+               </div>
+               <div class="feedback-form-group">
+                   <label for="email">Электронная почта:</label>
+                   <input type="text" name="email" id="email">
+               </div>
+               <div class="checkbox-area">
+                   <label for="">
+                       <input type="checkbox" name="subscription">
+                       Я согласен получать рассылку и спам по смс на телефон
+                   </label>
+               </div>
+               <div class="feedback-form-group">
+                   <label for="topic">Виды услуг:</label>
+                   <select name="topic" id="topic">
+                       <option value="1">Лёгкая уборка</option>
+                       <option value="2">Генеральная</option>
+                       <option value="3">Всё включено</option>
+                   </select>
+               </div>
+               <div class="feedback-form-group">
+                  <label for="message">Площадь помещения:</label>
+                  <textarea name="message" id="message"></textarea>
+                  <br> <label for="message">Комментарий:</label>
+                   <textarea name="message" id="message"></textarea>
+               </div>
+               <input class="btn" type="submit" value="Отправить">
+           </form>
+       </div>
+    </div>
+    <div class="page-footer">
+    <div class="container">
+      <div class="footer-middle clearfix">
+      <div class="footer-menu">
+          <h3>Главная</h3>
+          <ul class="footer-menu">
+              <li><a class="btnn" href="index-catalog.html">Каталог</a></li>
+              <li><a class="btnn" href="#">Контакты</a></li>
+              <li><a class="btnn" href="index-zakaz.html">Заказать</a></li>
+          </ul>
+          </div>
+          <div class="footer-menu">
+           <h3 class="section-footer-title">Прайс-лист</h3>
+              <ul class="footer-menu">
+              <li><a class="btnn" href="#">Скачать прайс-лист</a></li></ul>
+         </div>
+      </div>
+      <div class="footer-bottom clearfix">
+      <div class="footer-social"><b>Давайте дружить!</b>
+       <a class="social-btn social-btn-vk" href="https://vk.com/kliningrzhev">Вконтакте</a>
+      </div>
+         <div class="footer-copyright">
+          С <span class="heart">любовью</span> для вас <br> компания "Klining-master"</div>
+          </div>
+    </div>
+  </div>
+</body>
+</html>
